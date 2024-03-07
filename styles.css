@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1e1d1d;
+    color: #fff;
+    padding: 0px 30px;
+}
+.navBottom a {
+    color: #fff;
+    text-decoration: none;
+}
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    background-color: transparent;
+}
+#search-box {
+    min-width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 200px;
+    display: flex;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex-grow: 1;
+}
+
+.search-input::placeholder {
+    color: lightgray;
+}
+
+#search-icon {
+    color: #111;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+#shopping-cart-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.navBottom {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+.Products {
+    display: inline-block; 
+    background-color: #fff;
+    width: 100vw;
+}
+
+.Products h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1d1d;
+    color: #fff;
+}
+
+.item {
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+}
+.item img{
+    width: 110px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* .more {
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+}
+.more img{
+    width: 110px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+} */
+
+.active {
+    width: 300px;
+    height: 300px;
+    background-color: #1e1d1d;
+    padding: 5px 5px;
+}
+.item .description,
+.item .price {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.footer {
+    background-color: #1e1d1d;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer ul li.left {
+    float: left;
+}
+
+  .footer ul li.right {
+    float: right;
+  }
+
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
